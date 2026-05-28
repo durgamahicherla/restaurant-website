@@ -129,6 +129,28 @@ footer p{
     text-align:center;
     width:500px;
     border-radius:25px;
-    margin 0 auto;
+    margin :0 auto;
 
+}
+#cartCount {
+    color: white;
+    background-color: #e85d04;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu-card button {
+    background-color: #e85d04;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+.menu-card button:hover {
+    background-color: #b5451b;
 }
