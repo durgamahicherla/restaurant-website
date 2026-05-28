@@ -10,6 +10,8 @@
           <a href="menu.html">Menu</a>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
+          <!--Java Script added-->
+          <span id="cartCount">🛒 Cart (0)</span>
         </nav>
         <div class="hero">
             <div class="hero-overlay">
@@ -28,18 +30,24 @@
                 <h4>Paneer Tikka</h4>
                 <p>Grilled cottage cheese with spices</p>
                 <span class="price">₹250</span>
+                 <!-- Add this button to every card -->
+                 <button onclick="addToCart('Paneer Tikka')">Add to Cart</button>
               </div>
               <div class="menu-card">
                 <img src="spring rolls.webp" alt="Veg Spring Rolls">
                 <h4>Veg Spring Rolls</h4>
                 <p>Crispy rolls stuffed with vegetables</p>
                 <span class="price">₹180</span>
+                 <!-- Add this button to every card -->
+                 <button onclick="addToCart('Spring rolls')">Add to Cart</button>
               </div>
               <div class="menu-card">
                 <img src="Masala papad.avif" alt="Masala Papad">
                 <h4>Masala Papad</h4>
                 <p>Crispy Papad with onion and tomato topping</p>
                 <span class="price">₹80</span>
+                 <!-- Add this button to every card -->
+                 <button onclick="addToCart('Masala Papad')">Add to Cart</button>
               </div>
             </div>
 
@@ -50,18 +58,24 @@
                   <h4>Butter Chicken</h4>
                   <p>Tender Chicken in rich creamy tomato gravy</p>
                   <span class="price">₹350</span>
+                   <!-- Add this button to every card -->
+                   <button onclick="addToCart('Butter Chicken')">Add to Cart</button>
                 </div>
                 <div class="menu-card">
                     <img src="paneer butter masala.avif" alt="Paneer Butter Masala">
                   <h4>Paneer Butter Masala</h4>
                   <p>Soft paneer cubes in buttery tomato gravy</p>
                   <span class="price">₹280</span>
+                   <!-- Add this button to every card -->
+                   <button onclick="addToCart('Paneer Butter Masala')">Add to Cart</button>
                 </div>
                 <div class="menu-card">
                     <img src="dal tadka.avif" alt="Dal Tadka">
                   <h4>Dal Tadka</h4>
                   <p>Yellow lentils tempered with garlic and spices</p>
                   <span class="price">₹180</span>
+                   <!-- Add this button to every card -->
+                   <button onclick="addToCart('Dal Tadka')">Add to Cart</button>
                 </div>
 
             </div>
@@ -73,22 +87,29 @@
                   <h4>Gulab Jamun</h4>
                   <p>Soft milk dumplings soaked in sugar syrup</p>
                   <span class="price">₹120</span>
+                   <!-- Add this button to every card -->
+                   <button onclick="addToCart('Gulab Jamun')">Add to Cart</button>
                 </div>
                 <div class="menu-card">
                     <img src="mango kulfi.avif" alt="Mango Kulfi">
                   <h4>Mango Kulfi</h4>
                   <p>Traditional Indian ice cream with mango flavor</p>
                   <span class="price">₹150</span>
+                   <!-- Add this button to every card -->
+                   <button onclick="addToCart('Mango Kulfi')">Add to Cart</button>
                 </div>
                 <div class="menu-card">
                     <img src="rasgulla.webp" alt="Rasgulla">
                   <h4>Rasgulla</h4>
                   <p>Soft spongy cottage cheese balls in sugar syrup</p>
                   <span class="price">₹100</span>
+                   <!-- Add this button to every card -->
+                   <button onclick="addToCart('Rasgulla')">Add to Cart</button>
                 </div>
 
             </div>
         </div>
+         <script src="script.js"></script>
 
         <footer>
             <p>📍 Rajamahendravaram,Andhra Pradesh</p>
